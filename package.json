@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "\"chai on duty\"",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "chai"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "touch-for-windows": "^1.0.5"
+  }
 }
